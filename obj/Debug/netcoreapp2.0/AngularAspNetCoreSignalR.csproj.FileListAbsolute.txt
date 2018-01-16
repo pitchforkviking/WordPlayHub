@@ -1,0 +1,10 @@
+d:\Create\Microsoft\SignalR\bin\Debug\netcoreapp2.0\AngularAspNetCoreSignalR.deps.json
+d:\Create\Microsoft\SignalR\bin\Debug\netcoreapp2.0\AngularAspNetCoreSignalR.runtimeconfig.json
+d:\Create\Microsoft\SignalR\bin\Debug\netcoreapp2.0\AngularAspNetCoreSignalR.runtimeconfig.dev.json
+d:\Create\Microsoft\SignalR\bin\Debug\netcoreapp2.0\AngularAspNetCoreSignalR.dll
+d:\Create\Microsoft\SignalR\bin\Debug\netcoreapp2.0\AngularAspNetCoreSignalR.pdb
+d:\Create\Microsoft\SignalR\obj\Debug\netcoreapp2.0\AngularAspNetCoreSignalR.csproj.CoreCompileInputs.cache
+d:\Create\Microsoft\SignalR\obj\Debug\netcoreapp2.0\AngularAspNetCoreSignalR.AssemblyInfoInputs.cache
+d:\Create\Microsoft\SignalR\obj\Debug\netcoreapp2.0\AngularAspNetCoreSignalR.AssemblyInfo.cs
+d:\Create\Microsoft\SignalR\obj\Debug\netcoreapp2.0\AngularAspNetCoreSignalR.dll
+d:\Create\Microsoft\SignalR\obj\Debug\netcoreapp2.0\AngularAspNetCoreSignalR.pdb
