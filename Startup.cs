@@ -15,7 +15,7 @@ namespace AngularAspNetCoreSignalR
                 builder
                     .AllowAnyMethod()
                     .AllowAnyHeader()
-                    .WithOrigins("http://localhost:8100", "https://wordwar.azurewebsites.net");
+                    .AllowAnyOrigin();
             }));
 
             services.AddSignalR();

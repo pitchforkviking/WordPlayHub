@@ -12978,11 +12978,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Create\\Microsoft\\SignalR\\AngularAspNetCoreSignalR.csproj",
+      "projectUniqueName": "d:\\Create\\Microsoft\\SignalR\\WordPlayHub\\AngularAspNetCoreSignalR.csproj",
       "projectName": "AngularAspNetCoreSignalR",
-      "projectPath": "d:\\Create\\Microsoft\\SignalR\\AngularAspNetCoreSignalR.csproj",
+      "projectPath": "d:\\Create\\Microsoft\\SignalR\\WordPlayHub\\AngularAspNetCoreSignalR.csproj",
       "packagesPath": "C:\\Users\\Raj\\.nuget\\packages\\",
-      "outputPath": "d:\\Create\\Microsoft\\SignalR\\obj\\",
+      "outputPath": "d:\\Create\\Microsoft\\SignalR\\WordPlayHub\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
