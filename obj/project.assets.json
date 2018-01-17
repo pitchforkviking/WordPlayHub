@@ -12978,9 +12978,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Create\\Microsoft\\SignalR\\WordPlayHub\\AngularAspNetCoreSignalR.csproj",
-      "projectName": "AngularAspNetCoreSignalR",
-      "projectPath": "d:\\Create\\Microsoft\\SignalR\\WordPlayHub\\AngularAspNetCoreSignalR.csproj",
+      "projectUniqueName": "d:\\Create\\Microsoft\\SignalR\\WordPlayHub\\WordPlay.csproj",
+      "projectName": "WordPlay",
+      "projectPath": "d:\\Create\\Microsoft\\SignalR\\WordPlayHub\\WordPlay.csproj",
       "packagesPath": "C:\\Users\\Raj\\.nuget\\packages\\",
       "outputPath": "d:\\Create\\Microsoft\\SignalR\\WordPlayHub\\obj\\",
       "projectStyle": "PackageReference",

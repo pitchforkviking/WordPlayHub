@@ -3,7 +3,7 @@ using System.Collections;
 using System.Linq;
 using System.Collections.Generic;
 
-namespace AngularAspNetCoreSignalR
+namespace WordPlay
 {   
     public class Player
     {
@@ -34,9 +34,14 @@ namespace AngularAspNetCoreSignalR
             player.name = name; 
             members.Add(new KeyValuePair<string, Player>(key, player));
             var lookup = members.ToLookup(kvp => kvp.Key, kvp => kvp.Value);
+
+            int count = lookup[key].Count();
             
-            string message = string.Format("{0} Joined ({1}/{2})", name, lookup[key].Count(), mode);
-            Clients.Group(key).InvokeAsync("fjoin", message);
+            string message = string.Format("{0} Joined ({1}/{2})", name, count, mode);
+            
+            int play = count - 1;
+            //Clients.Group(key).InvokeAsync("fjoin", message, play);
+            Clients.Client(Context.ConnectionId).InvokeAsync("fjoin", message, play);
         }
 
         public void Sync(string key, object players, int pass)
@@ -63,8 +68,10 @@ namespace AngularAspNetCoreSignalR
             Groups.AddAsync(Context.ConnectionId, key);              
             
             var lookup = members.ToLookup(kvp => kvp.Key, kvp => kvp.Value);
+
+            int count = lookup[key].Count();
             
-            if(lookup[key].Count() < mode){
+            if(count < mode){
                 
                 Player player = new Player();
                 player.name = name; 
@@ -73,10 +80,14 @@ namespace AngularAspNetCoreSignalR
                 lookup = null;
                 lookup = members.ToLookup(kvp => kvp.Key, kvp => kvp.Value);
 
-                string message = string.Format("{0} Joined ({1}/{2})", name, lookup[key].Count(), mode);
-                Clients.Group(key).InvokeAsync("fjoin", message);                
+                count = lookup[key].Count();
+                string message = string.Format("{0} Joined ({1}/{2})", name, count, mode);
 
-                if(lookup[key].Count() == mode){   
+                int play = count - 1;
+                //Clients.Group(key).InvokeAsync("fjoin", message, play);                
+                Clients.Client(Context.ConnectionId).InvokeAsync("fjoin", message, play);
+
+                if(count == mode){   
 
                     var players = new Player[mode];                 
                     int index = 0;
@@ -89,7 +100,6 @@ namespace AngularAspNetCoreSignalR
                     //var result = players.ToArray();
 
                     Clients.Group(key).InvokeAsync("fbegin", players.ToList());
-
                 }
             }            
         }

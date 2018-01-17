@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace AngularAspNetCoreSignalR
+namespace WordPlay
 {
     public class Startup
     {
@@ -33,7 +33,7 @@ namespace AngularAspNetCoreSignalR
 
             app.UseSignalR(routes =>
             {
-                routes.MapHub<ChatHub>("chat");
+                routes.MapHub<ChatHub>("WordPlay");
             });
         }
     }

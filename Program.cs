@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace AngularAspNetCoreSignalR
+namespace WordPlay
 {
     public class Program
     {

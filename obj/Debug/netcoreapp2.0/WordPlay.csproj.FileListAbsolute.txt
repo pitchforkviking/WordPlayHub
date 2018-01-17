@@ -1,0 +1,10 @@
+d:\Create\Microsoft\SignalR\WordPlayHub\bin\Debug\netcoreapp2.0\WordPlay.deps.json
+d:\Create\Microsoft\SignalR\WordPlayHub\bin\Debug\netcoreapp2.0\WordPlay.runtimeconfig.json
+d:\Create\Microsoft\SignalR\WordPlayHub\bin\Debug\netcoreapp2.0\WordPlay.runtimeconfig.dev.json
+d:\Create\Microsoft\SignalR\WordPlayHub\bin\Debug\netcoreapp2.0\WordPlay.dll
+d:\Create\Microsoft\SignalR\WordPlayHub\bin\Debug\netcoreapp2.0\WordPlay.pdb
+d:\Create\Microsoft\SignalR\WordPlayHub\obj\Debug\netcoreapp2.0\WordPlay.csproj.CoreCompileInputs.cache
+d:\Create\Microsoft\SignalR\WordPlayHub\obj\Debug\netcoreapp2.0\WordPlay.AssemblyInfoInputs.cache
+d:\Create\Microsoft\SignalR\WordPlayHub\obj\Debug\netcoreapp2.0\WordPlay.AssemblyInfo.cs
+d:\Create\Microsoft\SignalR\WordPlayHub\obj\Debug\netcoreapp2.0\WordPlay.dll
+d:\Create\Microsoft\SignalR\WordPlayHub\obj\Debug\netcoreapp2.0\WordPlay.pdb
