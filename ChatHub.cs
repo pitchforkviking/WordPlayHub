@@ -108,5 +108,10 @@ namespace WordPlay
         {
             Clients.Group(key).InvokeAsync("fbroadcast", message);            
         }
+
+        public void End(string key, string winner)
+        {
+            Clients.Group(key).InvokeAsync("fend", winner);            
+        }
     }
 }
